@@ -1,4 +1,5 @@
 <?php include 'php/navbar.php'; ?>
+<link rel="stylesheet" href="css/style.css">
 <section class="section">
     <h2>Planes de Asesorías</h2>
     <div class="pricing">

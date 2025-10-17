@@ -38,9 +38,24 @@ nav a {
 
 .hero {
     text-align: center;
-    padding: 80px 10%;
+    padding: 60px 10%;
     background: white;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content > * {
+    margin-bottom: 20px;
+}
+
+
 
 .btn {
     background: #0066ff;

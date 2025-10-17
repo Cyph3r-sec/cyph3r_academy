@@ -1,4 +1,5 @@
 <?php include 'php/navbar.php'; ?>
+<link rel="stylesheet" href="css/style.css">nk
 <section class="section">
     <h2>Temario de Asesorías</h2>
     <h3>Fundamentos de Programación</h3>

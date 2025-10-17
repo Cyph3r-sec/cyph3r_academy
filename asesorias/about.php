@@ -1,4 +1,5 @@
 <?php include 'php/navbar.php'; ?>
+<link rel="stylesheet" href="css/style.css">
 <section class="section">
     <h2>Sobre Nosotros</h2>
     <p>Somos un grupo de desarrolladores apasionados por enseñar. 

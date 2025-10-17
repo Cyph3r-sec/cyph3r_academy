@@ -1,4 +1,5 @@
 <?php include 'php/navbar.php'; ?>
+<link rel="stylesheet" href="css/style.css">
 <section class="section">
     <h2>Agenda tu Asesoría</h2>
     <form action="php/agendar.php" method="POST" class="form">
