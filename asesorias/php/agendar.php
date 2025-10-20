@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $hora = $_POST['hora'];
     $mensaje = $_POST['mensaje'];
 
-    $sql = "INSERT INTO agenda (nombre, correo, tema, fecha, hora, mensaje)
+    $sql = "INSERT INTO agenda_new (nombre, correo, tema, fecha, hora, mensaje)
             VALUES ('$nombre', '$correo', '$tema', '$fecha', '$hora', '$mensaje')";
 
     if ($conn->query($sql)) {

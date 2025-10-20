@@ -1,6 +1,7 @@
 <header>
     <nav>
-        <h1 class="logo">CodeMentor</h1>
+        <img src="img/logo2.png" alt="Logo de CodeMentor" class="icono-img">
+        <img src="img/logo1.png" alt="logo2" class="logo-img">
         <ul>
             <li><a href="/asesorias/index.php">Inicio</a></li>
             <li><a href="/asesorias/about.php">Sobre nosotros</a></li>

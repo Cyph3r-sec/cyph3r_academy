@@ -15,7 +15,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background: linear-gradient(90deg, #0066ff, #00cc99);
+    background-color: #000510;
     color: white;
 }
 
@@ -23,6 +23,20 @@ nav {
     font-weight: 700;
     font-size: 24px;
 }
+
+.icono-img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.logo-img {
+    position: relative;
+    right: 390px;
+    width: 200px;
+    height: 50px;
+}
+
 
 nav ul {
     display: flex;
