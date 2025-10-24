@@ -13,8 +13,14 @@
                 <li>Diseño de Funciones</li>
             </ul>
         <li>Introducción a la programación</li>
-            <ul>
+            <ul style="padding-left: 20px;">
                 <li>Conceptos Básicos</li>
+                <li>Características del lenguaje de programación</li>
+                <li>Estructura básica de un programa</li>
+                <li>
+                    <p>Elementos de lenguaje: tipos de datos, literales, constantes, </p>
+                    <p>variables, indetificadores, parametros, operadores y salida de datos.</p>
+                </li>
             </ul>
         <li>Funciones y modularidad</li>
         <li>Arreglos y cadenas</li>
@@ -37,5 +43,29 @@
                 <li>Aplicacion de los sistemas numéricos en en la computación</li>
             </ul>
         <li>Conjuntos y Relaciones</li>
+            <ul style="padding-left: 20px;">
+                <li>Características de los conjuntos y subconjuntos</li>
+                <li>Operaciones con conjuntos </li>
+                <li>Propiedades y aplicaciones de los subconjuntos</li>
+                <li>Conceptos básicos: producto cartesiano y relación binaria</li>
+                <li>Representación de las relaciones</li>
+                <li>Relaciones de equivalencia</li>
+                <li>Funciones</li>
+                <li>Aplicaciones de las relaciones y las funciones en la computación</li>
+            </ul>
+        <li>Algebra Booleana</li>
+            <ul style="padding-left: 20px;">
+                <li>Teoremas y Postulados</li>
+                <li>Optimzación de expresiones booleanas</li>
+                <li>Aplicación del algebra booleana</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Mini y maxi terminos</li>
+                        <li>Representación de expresiones booleanas con circuitos lógicos</li>
+                    </ul>
+            </ul>
+        <li>Teoría de Grafos</li>
+            <ul style="padding-left: 20px;">
+                <li>Elementos, Características y Componentes de los grafos</li>
+            </ul>
     </ul>
 </section>
