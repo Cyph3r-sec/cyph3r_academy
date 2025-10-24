@@ -27,4 +27,15 @@
         <li>Árboles y grafos</li>
         <li>Algoritmos de ordenamiento y búsqueda</li>
     </ul>
+    <h3>Matemáticas Discretas</h3>
+    <ul>
+        <li>Sistemas Numéricos</li>
+            <ul style="padding-left: 20px;">
+                <li>Sistemas numéricos (Binario, Octal, Decimal, Hexadecimal)</li>
+                <li>Conversiones entre sistemas numéricos</li>
+                <li>Operaciones básicas (Suma, Resta, Multiplicación y División)</li>
+                <li>Aplicacion de los sistemas numéricos en en la computación</li>
+            </ul>
+        <li>Conjuntos y Relaciones</li>
+    </ul>
 </section>
