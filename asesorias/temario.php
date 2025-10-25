@@ -1,5 +1,6 @@
 <?php include 'php/navbar.php'; ?>
 <link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="/img/logo2.png" type="image/png">
 <section class="section">
     <h2>Temario de Asesorías</h2>
     <br>
@@ -21,14 +22,69 @@
                     <p>Elementos de lenguaje: tipos de datos, literales, constantes, </p>
                     <p>variables, indetificadores, parametros, operadores y salida de datos.</p>
                 </li>
+                <li>
+                    <p>Traducción de un programa: compilación,</p>
+                    <p style="padding-left: 2px;">enlace, ejecución y errores.</p>
+                </li>
             </ul>
-        <li>Funciones y modularidad</li>
-        <li>Arreglos y cadenas</li>
+        <li>Control de Flujo</li>
+            <ul style="padding-left: 20px;">
+                <li>Estructuras secuenciales</li>
+                <li>
+                    <p>Estructuras selectivas: simple, doble y</p>
+                    <p style="padding-left: 2px;">múltiple.</p>
+                </li>
+                <li>
+                    <p>Estructuras iterativas: repetir mientras, hasta,</p>
+                    <p style="padding-left: 2px;">desde.</p>
+                </li>
+            </ul>
+        <li>Organización de datos</li>
+            <ul style="padding-left: 20px;">
+                <li>Arreglos</li>
+                <li>
+                    <p>Unidimensionales: conceptos básicos,</p>
+                    <p style="padding-left: 2px;">operaciones y aplicaciones.</p>
+                </li>
+                <li>
+                    <p>Multidimensionales: conceptos básicos,</p>
+                    <p style="padding-left: 2px;">operaciones y aplicaciones.</p>
+                </li>
+                <li>Estructuras o registros.</li>
+            </ul>
+        <li>Modularidad</li>
+            <ul style="padding-left: 20px;">
+                <li>Declaración y uso de módulos.</li>
+                <li>Paso de parametros o argumentos.</li>
+                <li>Implementación.</li>
+            </ul>
     </ul>
     <br>
     <h3>Estructuras de Datos</h3>
     <ul>
-        <li>Pilas y colas</li>
+        <li>Introducción a las estructuras de datos</li>
+            <ul style="padding-left: 20px;">
+                <li>Clasificación de estructuras de datos.</li>
+                <li>Tipos de datos astractos (TDA).</li>
+                <li>Ejemplos de (TDA).</li>
+                <li>Manejo de Memoria.</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Memoria Estática</li>
+                        <li>Memoria Dinámica</li>
+                    </ul>
+                <li>Analisis de Algoritmos</li>
+                    <ul>
+                        <li>Complejidad en el tiempo</li>
+                        <li>Complejidad en el espacio</li>
+                        <li>Eficiencia de los algoritmos</li>
+                    </ul>
+        <li>Recursividad</li>
+            <ul style="padding-left: 20px;">
+                <li>Definición</li>
+                <li>Procedimientos recursivos</li>
+                <li>Ejemplos de casos recursivos</li>
+            </ul>
+            </ul>
         <li>Listas enlazadas</li>
         <li>Árboles y grafos</li>
         <li>Algoritmos de ordenamiento y búsqueda</li>
