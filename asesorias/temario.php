@@ -85,9 +85,70 @@
                 <li>Ejemplos de casos recursivos</li>
             </ul>
             </ul>
-        <li>Listas enlazadas</li>
-        <li>Árboles y grafos</li>
-        <li>Algoritmos de ordenamiento y búsqueda</li>
+        <li>Estructuras lineales</li>
+            <ul style="padding-left: 20px;">
+                <li>Pilas</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Representación en memoria</li>
+                        <li>Operaciones Básicas</li>
+                        <li>Aplicaciones</li>
+                    </ul>
+                <li>Colas</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Representación en memoria</li>
+                        <li>Operaciones básicads</li>
+                        <li>Tipos de colas: simples, circulares y bicolas</li>
+                        <li>Aplicaciones</li>
+                    </ul>
+                <li>Listas</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Operaciones básicas</li>
+                        <li>
+                            <p>Tipos de listas: simplemente enlazadas,</p>
+                            <p>doblemente enlazadas y circulares</p>
+                        </li>
+                        <li>Aplicaciones</li>
+                    </ul>
+            </ul>
+        <li>Estructuras no lineales</li>
+            <ul style="padding-left: 20px;">
+                <li>Árboles</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Clasificación de arboles</li>
+                        <li>
+                            <p>Operaciones básicas sobre arboles</p>
+                            <p>binarios</p>
+                        </li>
+                        <li>Aplicaciones</li>
+                    </ul>
+                <li>Grafos</li>
+                    <ul style="padding-ñeft: 20px;">
+                        <li>Representación de grafos</li>
+                        <li>Operaciones básicas</li>
+                    </ul>
+            </ul>
+        <li>Métodos de Ordenamiento</li>
+            <ul style="padding-left: 20px;">
+                <li>Algoritmos de ordenamiento internos</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Burbuja</li>
+                        <li>QuickSort</li>
+                        <li>ShellSort</li>
+                        <li>Radix</li>
+                    </ul>
+                <li>Algoritmos de ordenamiento externo</li>
+                    <ul style="padding-left: 20px;">
+                        <li>Intercalación</li>
+                        <li>Mezcla directa</li>
+                        <li>Mezcla Natural</li>
+                    </ul>
+            </ul>
+        <li>Métodos de Búsqueda</li>
+            <ul style="padding-left: 20px;">
+                <li>Búsqueda secuencial</li>
+                <li>Búsqueda binaria</li>
+                <li>Búsqueda por funciones HASH</li>
+            </ul>
     </ul>
     <h3>Matemáticas Discretas</h3>
     <ul>
