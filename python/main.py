@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, time
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="OuHrKuB1PHmEBWLM03IL",  # <--- cámbialo por tu contraseña real
+    password="OuHrKuB1PHmEBWLM03IL",  
     database="asesorias_db"
 )
 
