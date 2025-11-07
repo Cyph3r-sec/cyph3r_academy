@@ -5,7 +5,11 @@
     <div class="pricing">
         <div class="card">
             <h3>Individual</h3>
-            <p>$25.00 MXN / hora</p>
+            <p>$50.00 MXN / hora</p>
+        </div>
+        <div class="card">
+            <h3>Clase Grupal</h3>
+            <p>$35.00 MXN / hora</p>
         </div>
         <div class="card">
             <h3>Mensual</h3>
