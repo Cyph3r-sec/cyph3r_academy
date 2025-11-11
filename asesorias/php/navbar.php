@@ -8,7 +8,7 @@
             <li><a href="/asesorias/temario.php">Temario</a></li>
             <li><a href="/asesorias/agenda.php">Agenda</a></li>
             <li><a href="/asesorias/precios.php">Precios</a></li>
-            <li><a href="/asesorias/contacto.php">Contacto</a></li>
+
         </ul>
     </nav>
 </header>
