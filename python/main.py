@@ -4,7 +4,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from datetime import datetime, timedelta, time
 
-# --- CONFIGURACIÓN DE LA BASE DE DATOS ---
+
 db = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -12,7 +12,7 @@ db = mysql.connector.connect(
     database="asesorias_db"
 )
 
-# --- CONFIGURACIÓN DE LA API DE GOOGLE CALENDAR ---
+
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 flow = InstalledAppFlow.from_client_secrets_file(
     r"C:\Users\Cyph3r\Documents\GitHub\cyph3r_academy\python\credentials.json",
@@ -22,7 +22,7 @@ flow = InstalledAppFlow.from_client_secrets_file(
 creds = flow.run_local_server(port=0)
 service = build("calendar", "v3", credentials=creds)
 
-# --- OBTENER REGISTROS NO SINCRONIZADOS ---
+
 cursor = db.cursor(dictionary=True)
 cursor.execute("""
     SELECT id, nombre, correo, tema, fecha, hora, mensaje 
@@ -38,7 +38,7 @@ else:
 
 for r in registros:
     try:
-        # --- CONVERTIR HORA (maneja TIME o TIMEDELTA) ---
+        
         if isinstance(r["hora"], timedelta):
             total_seconds = r["hora"].total_seconds()
             horas = int(total_seconds // 3600)
@@ -48,11 +48,11 @@ for r in registros:
         else:
             hora_evento = r["hora"]
 
-        # --- CREAR OBJETOS DATETIME COMPLETOS ---
+        
         fecha_evento = datetime.combine(r["fecha"], hora_evento)
-        fin_evento = fecha_evento + timedelta(hours=1)  # duración por defecto 1h
+        fin_evento = fecha_evento + timedelta(hours=1) 
 
-        # --- CONSTRUIR EVENTO PARA GOOGLE CALENDAR ---
+        
         evento = {
             "summary": f"Asesoría con {r['nombre']} - {r['tema']}",
             "description": r["mensaje"],
@@ -61,11 +61,11 @@ for r in registros:
             "attendees": [{"email": r["correo"]}],
         }
 
-        # --- CREAR EVENTO EN GOOGLE CALENDAR ---
+        
         event = service.events().insert(calendarId="primary", body=evento).execute()
         print(f"✅ Evento creado para {r['nombre']} ({r['fecha']} {r['hora']}): {event.get('htmlLink')}")
 
-        # --- MARCAR COMO SINCRONIZADO ---
+        
         cursor_update = db.cursor()
         cursor_update.execute("UPDATE agenda_new SET sincronizado = TRUE WHERE id = %s", (r["id"],))
         db.commit()
